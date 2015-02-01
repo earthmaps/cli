@@ -1,0 +1,33 @@
+{
+	"name": "earthmaps-cli",
+	"version": "0.0.1",
+	"description": "Command-line interface for Earthmaps",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://earthmaps.org",
+	"keywords": ["earthmaps", "api", "cli", "json"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/earthmaps/cli.git"
+	},
+	"bugs": {
+		"url": "http://github.com/earthmaps/cli/issues"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.makesites.org/licenses/MIT"
+	}],
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": {
+		"earthmaps": "bin/earthmaps"
+	},
+	"dependencies": {
+		"commander": "2.1.0",
+		"earthmaps": "*",
+		"prompt": "0.2.12",
+		"underscore": "1.7.0"
+	}
+}
